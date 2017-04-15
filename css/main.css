@@ -2,6 +2,44 @@ h1 {
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.buttonLink {
+	margin-right:2rem;
+	margin-left:2rem;
+}
+
+body {
+    color:#222;
+}
+
+.green {
+    color:#2AB441;
+}
+
+.red {
+	color:#E01010;
+}
+
+.header {
+    margin-top:6rem;
+    text-align:center;
+}
+
+.social {
+	margin-top:4rem;
+	text-align: center;
+}
+
+.social img {
+	margin:10px;
+}
+
+.tile {
+	padding:5px;
+	border-radius:5px;
+	border:1px solid black;
+	background:#EDEDED;
+}
+
 .container {
   max-width: 800px; }
 .header {
