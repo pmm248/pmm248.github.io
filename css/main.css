@@ -56,11 +56,6 @@ body {
   margin-bottom: 4rem; }
 .docs-header {
   text-transform: uppercase;
-  font-size: 2.0rem;
-  letter-spacing: .2857rem;
-  font-weight: 600; }
-.docs-subheader {
-  text-transform: uppercase;
   font-size: 1.4rem;
   letter-spacing: .2rem;
   font-weight: 600; }
