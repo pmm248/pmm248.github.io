@@ -37,7 +37,7 @@
       <div class="one-half column header">
         <div align="left">
           <h1>Peter Mocarski</h1>
-          <p>B.Sc and M.Eng in Computer Science, May 2018</p>
+          <p>B.Sc and M.Eng in Computer Science</p>
         </div>
       </div>
       <div class="one-half column header">
@@ -52,28 +52,40 @@
 	  </div>
     </div>
 	<div 
-    <div class="row">
-      <div class="column header" align="left">
-        <h3 align="left"> Personal Projects </h3>
-      </div>
+  <div class="row">
+    <div class="column header" align="left">
+      <h3 align="left"> Personal Projects </h3>
     </div>
-	<div class="row">
-      <div class="docs-section" id="chess">
-        <h6 class="docs-header"><a href="http://pmocarski.com/ChessOpeningRecommender/">Chess Opening Recommender</a></h6>
+  </div>
+  <div class="row">
+      <div class="docs-section" id="weighted_higher_order_clustering">
+        <h6 class="docs-header"><a href="WeightedHigherOrderClustering.pdf">Weighted Higher-Order Clustering</a></h6>
         <div class="row">
-          <div class="four columns">
-            <p> </p>
-          </div>
           <div class="twelve columns">
-            <img src="images/chess.png" width="100%"/>
-          </div>
-          <div class="four columns">
-            <p> </p>
+            <p>Clustering is an important component of understanding network structure. This paper develops a metric for analyzing higher-order clustering of weighted graphs.</p>
           </div>
         </div>
-        <p> Based on your playing style, the chess opening recommendation engine suggests chess openings which are a perfect match for you. You can find openings which are aggressive, passive, positional, tactical, theory-heavy, simple, open, closed, and anywhere in between. Descriptions for various chess openings are scraped from Wikipedia and analyzed for textual similarity to keywords corresponding to user input. The app is entirely implemented using JavaSript/jQuery, while Python was used for extracting the dataset from Wikipedia. </p>
+        <div class="row" align="center">
+          <div class="twelve columns">
+            <a class="socialButton" href="WeightedHigherOrderClustering.pdf" target="_blank"><img src="images/pdf_icon.png" width="200" /></a>
+          </div>
+        </div>
       </div>
-    </div>
+  </div>
+  <div class="row">
+    <div class="docs-section" id="pac">
+      <h6 class="docs-header"><a href="http://pmocarski.com/3DPacMan/">Prac-Man 3D</a></h6>
+      <p> As part of a semester long design course, I worked with a team of three to design Prac-Man: a 3D implementation of PAC-MAN envisioned as a horror game. The project was implemented in WebGL and JavaScript without any use of outside graphics libraries. My individual contributions involved developing dynamic shading models, implementing multiple camera views, integrating music into game events, animating player and ghost movement, and optimizing project design to maintain a consistent frame rate of 60 FPS. </p>
+      <div class="row">
+        <div class="six columns">
+          <img src="images/PacMan%20Overhead.png" width="100%"/>
+        </div>
+        <div class="six columns">
+          <img src="images/PacMan%20ThirdPerson.png" width="100%"/>
+        </div>
+      </div>
+      <p> Because I do not own the copyrights to PAC-MAN, I am currently unable to distribute or publish the source code to this project.</p>
+      </div>
 	<div class="row">
       <div class="docs-section" id="companysearch">
         <h6 class="docs-header"><a href="http://companysearcherv3.herokuapp.com">CompanySearch</a></h6>
@@ -91,20 +103,6 @@
         <p> CompanySearch is a tool for investors to discover publicly traded companies on the stock market. As an example, a user can specify that they are looking for a large-cap company in the information technology sector which specializes in the cloud. CompanySearch will then use supervised machine learning techniques to search through thousands of companies, finding the top ten which best match this query. In addition to displaying company descriptions and current stock prices, Twitter sentiment analysis is also performed for every company, providing a glimpse into current public opinions about the market. The back-end was implemented using Python/Flask, while the front-end uses JavaScript/React. Please note that CompanySearch is currently hosted on a free hosting service with very limited computational resources and for this reason, may take a while to load.</p>
       </div>
     </div>
-    <div class="row">
-   	  <div class="docs-section" id="pac">
-        <h6 class="docs-header"><a href="http://pmocarski.com/3DPacMan/">Prac-Man 3D</a></h6>
-		    <p> As part of a semester long design course, I worked with a team of three to design Prac-Man: a 3D implementation of PAC-MAN envisioned as a horror game. The project was implemented in WebGL and JavaScript without any use of outside graphics libraries. My individual contributions involved developing dynamic shading models, implementing multiple camera views, integrating music into game events, animating player and ghost movement, and optimizing project design to maintain a consistent frame rate of 60 FPS. </p>
-		    <div class="row">
-		      <div class="six columns">
-		        <img src="images/PacMan%20Overhead.png" width="100%"/>
-		      </div>
-		      <div class="six columns">
-		      	<img src="images/PacMan%20ThirdPerson.png" width="100%"/>
-		      </div>
-		    </div>
-		    <p> Because I do not own the copyrights to PAC-MAN, I am currently unable to distribute or publish the source code to this project.  </p>
-		  </div>
     </div>
     <div class="row">
    	  <div class="docs-section" id="ray">
@@ -147,6 +145,23 @@
         <p> Conceived at the RIT BrickHack Hackathon, and winning the Best Pebble Hack Award, Pokemon Pebble Edition brings the virtual Pokemon world to reality, using geolocation and player movement to create a location-based version of the classic videogame. Players can battle and capture Pokemon in the real world using their Pebble smartwatch, and use their Android smartphone as a Pokedex. I was responsible for developing all game mechanics on the Pebble smart watch, as well as integrating sensor data from the Android handset into game events. Despite high interest in further development, Pokemon Pebble was discontinued in late 2015 once Pokemon Go was announced, due to a large overlap in content.</p>
       </div>
     </div>
+    <div class="row">
+      <div class="docs-section" id="chess">
+        <h6 class="docs-header"><a href="http://pmocarski.com/ChessOpeningRecommender/">Chess Opening Recommender</a></h6>
+        <div class="row">
+          <div class="four columns">
+            <p> </p>
+          </div>
+          <div class="twelve columns">
+            <img src="images/chess.png" width="100%"/>
+          </div>
+          <div class="four columns">
+            <p> </p>
+          </div>
+        </div>
+        <p> Based on your playing style, the chess opening recommendation engine suggests chess openings which are a perfect match for you. You can find openings which are aggressive, passive, positional, tactical, theory-heavy, simple, open, closed, and anywhere in between. Descriptions for various chess openings are scraped from Wikipedia and analyzed for textual similarity to keywords corresponding to user input. The app is entirely implemented using JavaSript/jQuery, while Python was used for extracting the dataset from Wikipedia. </p>
+    </div>
+  </div>
   </div>
 
 
