@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ?????????????????????????????????????????????????? -->
+  <meta charset="utf-8">
+  <title>Peter Mocarski: Software Engineer</title>
+  <meta name="description" content="The personal website of Peter Mocarski, with descriptions and links to past and current software engineering projects.">
+  <meta name="author" content="Peter Mocarski">
+
+  <!-- Mobile Specific Metas
+  ?????????????????????????????????????????????????? -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  ?????????????????????????????????????????????????? -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  ?????????????????????????????????????????????????? -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon
+  ?????????????????????????????????????????????????? -->
+  <link rel="icon" type="image/png" href="images/profile.png">
+
+</head>
+<body style="background-color: #eeeeee;">
+
+  <!-- Primary Page Layout
+  ?????????????????????????????????????????????????? -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column header">
+        <div align="left">
+          <h1>Peter Mocarski</h1>
+          <p>B.Sc and M.Eng in Computer Science</p>
+        </div>
+      </div>
+      <div class="one-half column header">
+      <img src="images/cornell.png" width="100%"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns social">
+		<a class="socialButton" href="https://linkedin.com/in/peter-mocarski/" target="_blank"><img src="images/linkedin.png" /></a>
+		<a class="socialButton" href="PeterMocarskiResumeSP17.pdf" target="_blank"><img src="images/resume.png" width="100" /></a>
+		<a class="socialButton" href="https://github.com/pmm248" target="_blank"><img src="images/github.png" /></a>
+	  </div>
+    </div>
+	<div 
+  <div class="row">
+    <div class="column header" align="left">
+      <h3 align="left"> Personal Projects </h3>
+    </div>
+  </div>
+  <div class="row">
+      <div class="docs-section" id="weighted_higher_order_clustering">
+        <h6 class="docs-header"><a href="WeightedHigherOrderClustering.pdf">Weighted Higher-Order Clustering</a></h6>
+        <div class="row">
+          <div class="twelve columns">
+            <p>Clustering is an important component of understanding network structure. This paper develops a metric for analyzing higher-order clustering of weighted graphs.</p>
+          </div>
+        </div>
+        <div class="row" align="center">
+          <div class="twelve columns">
+            <a class="socialButton" href="WeightedHigherOrderClustering.pdf" target="_blank"><img src="images/pdf_icon.png" width="200" /></a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="docs-section" id="pac">
+      <h6 class="docs-header"><a href="http://pmocarski.com/3DPacMan/">Prac-Man 3D</a></h6>
+      <p> As part of a semester long design course, I worked with a team of three to design Prac-Man: a 3D implementation of PAC-MAN envisioned as a horror game. The project was implemented in WebGL and JavaScript without any use of outside graphics libraries. My individual contributions involved developing dynamic shading models, implementing multiple camera views, integrating music into game events, animating player and ghost movement, and optimizing project design to maintain a consistent frame rate of 60 FPS. </p>
+      <div class="row">
+        <div class="six columns">
+          <a href="http://pmocarski.com/3DPacMan/"><img src="images/PacMan%20Overhead.png" width=100%/></a>
+        </div>
+        <div class="six columns">
+          <a href="http://pmocarski.com/3DPacMan/"><img src="images/PacMan%20ThirdPerson.png" width=100%/></a>
+        </div>
+      </div>
+      <p> Because I do not own the copyrights to PAC-MAN, I am currently unable to distribute or publish the source code to this project.</p>
+      </div>
+	<div class="row">
+      <div class="docs-section" id="companysearch">
+        <h6 class="docs-header"><a href="http://companysearcherv3.herokuapp.com">CompanySearch</a></h6>
+        <div class="row">
+          <div class="four columns">
+            <p> </p>
+          </div>
+          <div class="twelve columns">
+            <img src="images/cloudera.png" width="100%"/>
+          </div>
+          <div class="four columns">
+            <p> </p>
+          </div>
+        </div>
+        <p> CompanySearch is a tool for investors to discover publicly traded companies on the stock market. As an example, a user can specify that they are looking for a large-cap company in the information technology sector which specializes in the cloud. CompanySearch will then use supervised machine learning techniques to search through thousands of companies, finding the top ten which best match this query. In addition to displaying company descriptions and current stock prices, Twitter sentiment analysis is also performed for every company, providing a glimpse into current public opinions about the market. The back-end was implemented using Python/Flask, while the front-end uses JavaScript/React. Please note that CompanySearch is currently hosted on a free hosting service with very limited computational resources and for this reason, may take a while to load.</p>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+   	  <div class="docs-section" id="ray">
+        <h6 class="docs-header">Ray Tracer and Shaders</h6>
+		    <p> As part of a computer graphics course offered at Cornell, I worked with a partner to implement a ray tracer in Java. A ray tracer renders a computer image by simulating the way light propagates through space and interacts with objects. Given a triangle mesh, the ray tracer generates the scene along with shadows, light reflectance, and textures. The ray tracer supports orthogonal and perspective viewing, Monte Carlo illumination, and multiple surface shading models. My role in the project involved implementing ray generation and intersection, computing shading during the rendering process, integrating anti-aliasing, and implementing an acceleration structure for large models. </p>
+		    <div class="row">
+		      <div class="four columns">
+		        <img src="images/Earth.png" width="100%"/>
+		      </div>
+		      <div class="four columns">
+		      	<img src="images/glassBunny.png" width="100%"/>
+		      </div>
+		      <div class="four columns">
+		      	<img src="images/Environment.jpg" width="100%"/>
+		      </div>
+		    </div>
+		    <p> Throughout the course, I implemented a Blinn-Phong shader, a Cook-Torrance shader, as well as shaders based on environment mapping, normal mapping, and displacement mapping. Additionally, I implemented shaders for different types of materials, such as metal and glass.  </p>
+		  </div>
+    </div>
+    <div class="row">
+      <div class="docs-section" id="cons">
+        <h6 class="docs-header">ConsTableaux: Automated Theorem Prover</h6>
+        <div class="row">
+          <div class="six columns">
+            <img src="images/constableauxsmall.png" width="100%"/>
+          </div>
+          <div class="six columns">
+            <img src="images/constableauxbig.png" width="100%"/>
+          </div>
+        </div>
+        <p> ConsTableaux is an automated theorem prover, proof visualizer, and educational tool based off of the method of analytic tableaux. It was implemented as a team of three using Scala for the back-end and JavaScript/D3.js for the front-end. Given a formula in propositional logic, ConsTableaux proves whether or not it is a tautology, and generates an interactive, step-by-step tree visualization of a proof or counter-example. The project aims to help students who have trouble grasping the underlying intuition behind proofs of propositional logic by presenting them through a visual medium. I worked on the backend of this project, and was responsible for implementing the parser and the core logic behind proof evaluation. ConsTableaux was created under the supervision of Professor Robert Constable and was featured at Bits On Our Minds 2017. </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="docs-section" id="pokemon">
+      	<h6 class="docs-header"><a href="https://devpost.com/software/pokemon-pebble">Pokemon: Pebble Edition</a></h6>
+        <div class="row">
+          <a href="https://devpost.com/software/pokemon-pebble"><img src="images/pokemon.png" width=100%/></a>
+        </div>
+        <p> Conceived at the RIT BrickHack Hackathon, and winning the Best Pebble Hack Award, Pokemon Pebble Edition brings the virtual Pokemon world to reality, using geolocation and player movement to create a location-based version of the classic videogame. Players can battle and capture Pokemon in the real world using their Pebble smartwatch, and use their Android smartphone as a Pokedex. I was responsible for developing all game mechanics on the Pebble smart watch, as well as integrating sensor data from the Android handset into game events. Despite high interest in further development, Pokemon Pebble was discontinued in late 2015 once Pokemon Go was announced, due to a large overlap in content.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="docs-section" id="chess">
+        <h6 class="docs-header"><a href="http://pmocarski.com/ChessOpeningRecommender/">Chess Opening Recommender</a></h6>
+        <div class="row">
+          <div class="twelve columns">
+            <a href="http://pmocarski.com/ChessOpeningRecommender/"><img src="images/chess.png" width=100%/></a>
+          </div>
+        </div>
+        <p> Based on your playing style, the chess opening recommendation engine suggests chess openings which are a perfect match for you. You can find openings which are aggressive, passive, positional, tactical, theory-heavy, simple, open, closed, and anywhere in between. Descriptions for various chess openings are scraped from Wikipedia and analyzed for textual similarity to keywords corresponding to user input. The app is entirely implemented using JavaSript/jQuery, while Python was used for extracting the dataset from Wikipedia. </p>
+     </div>
+    </div>
+
+
+
+
+
+<!-- End Document
+  ?????????????????????????????????????????????????? -->
+</body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97422940-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>
