@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Mocarski - Resume</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .resume { box-shadow: none; }
+            .download-btn { display: none; }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .resume {
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: white;
+            padding: 0.75in;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            min-height: 11in;
+        }
+        .download-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #2c5aa0;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #1e4080;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 15px;
+        }
+        .name {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 8px;
+        }
+        .contact {
+            font-size: 14px;
+            color: #666;
+        }
+        .contact a {
+            color: #2c5aa0;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job-header, .role-item, .education-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .job-header {
+            margin-bottom: 8px;
+        }
+        .company {
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+        }
+        .location {
+            font-style: italic;
+            color: #666;
+            white-space: nowrap;
+        }
+        .role-item {
+            margin-bottom: 2px;
+        }
+        .role {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        .dates {
+            color: #666;
+            font-style: italic;
+            white-space: nowrap;
+        }
+        .achievements {
+            margin-top: 8px;
+        }
+        .achievements li {
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+        .education-item {
+            margin-bottom: 12px;
+        }
+        .education-row > div:last-child {
+            text-align: right;
+        }
+        .degree {
+            font-weight: bold;
+            color: #333;
+        }
+        .gpa {
+            color: #2c5aa0;
+            font-weight: bold;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 10px;
+            align-items: start;
+        }
+        .skill-category {
+            font-weight: bold;
+            color: #333;
+        }
+        .skill-list {
+            color: #666;
+        }
+        ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+    </style>
+</head>
+<body>
+    <button class="download-btn" onclick="window.print()">Download as PDF</button>
+
+    <div class="resume">
+        <div class="header">
+            <div class="name">Peter Mocarski</div>
+            <div class="contact">
+                (847) 596-1304 |
+                <a href="mailto:pmocarski587@gmail.com">pmocarski587@gmail.com</a> |
+                <a href="https://linkedin.com/in/peter-mocarski">LinkedIn: peter-mocarski</a>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <div class="job">
+                <div class="job-header">
+                    <div class="company">Anthropic</div>
+                    <div class="location">New York, NY</div>
+                </div>
+                <div class="role-item">
+                    <div class="role">Member of Technical Staff</div>
+                    <div class="dates">2025 - Present</div>
+                </div>
+                <div class="achievements">
+                    <ul>
+                        <li>Building the future of safe AI</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="job">
+                <div class="job-header">
+                    <div class="company">Airbnb</div>
+                    <div class="location">Remote</div>
+                </div>
+                <div class="role-item">
+                    <div class="role">Tech Lead (API Partner Ecosystem)</div>
+                    <div class="dates">2022 - 2025</div>
+                </div>
+                <div class="role-item">
+                    <div class="role">Tech Lead (Experiences: Host Tools)</div>
+                    <div class="dates">2021 - 2022</div>
+                </div>
+                <div class="role-item">
+                    <div class="role">Senior Software Engineer</div>
+                    <div class="dates">2021</div>
+                </div>
+                <div class="role-item">
+                    <div class="role">Software Engineer</div>
+                    <div class="dates">2018 - 2021</div>
+                </div>
+                <div class="achievements">
+                    <ul>
+                        <li>Led a multi-year initiative to rebuild Airbnb's API Partner Portal. The Partner Portal allows external partners to manage their integrations with Airbnb. Developed key features such as search functionality for historical API events/resources, app settings management, feature certification, support, and other essential tools. The rearchitecture focused on platformizing the portal to support integrations beyond property management, including smart home integrations and other new domains.</li>
+                        <li>Designed and led implementation for a new service at Airbnb to create online meetings and allow users to integrate their accounts with 3rd party vendors like Zoom. This service powers all video calling at Airbnb, including key products like Online Experiences and the Superhost Guide program (host-to-host video calling)</li>
+                        <li>Designed and led implementation for a new quick search page for API partners. Allows professional hosts and integration partners to quickly access all their managed resources by keyword search (powered by Elasticsearch) and browse recently viewed items</li>
+                        <li>Led the unification of host messaging architecture across product verticals (Homes and Experiences) over the course of 2 years</li>
+                        <li>Led the development of an automated messaging framework, enabling hosts to create messaging templates and send them automatically in response to business-level triggers, i.e. send a welcome message 5 minutes after a booking or a reminder message 1 hour before an experience starts. Over 65% of trips have adopted this feature, accounting for millions of messages</li>
+                        <li>Led a series of major uplifts to the host calendar in 2020, including the addition of an infinitely-scrollable schedule view, reservation management tools, filtering, and calendar export functionality</li>
+                        <li>Migrated supply-side codebase from a monolithic Rails application to SOA Java services, over the course of 2 years. DRI for media, vetting, and host acquisition related logic</li>
+                        <li>Automated risk vetting workflows, reducing operational overhead by 70-90%. This involved auto-populating risk factors based on user-defined taxonomy, integrating with a 3rd party API for license/insurance verification, and designing admin tooling to manage hosts within our risk queue</li>
+                        <li>Integrated Airbnb Experiences with an external media asset management system, enabling content operations and other non-technical functions to easily query data</li>
+                        <li>Developed the backend for the Experiences internal media vetting system which allows operations to automatically claim the highest priority experience waiting for content vetting, review photos by our quality standards, and promote experiences within our acquisition funnel accordingly</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="job">
+                <div class="job-header">
+                    <div class="company">Cornell University</div>
+                    <div class="location">Ithaca, NY</div>
+                </div>
+                <div class="role-item">
+                    <div class="role">Head Graduate Teaching Assistant</div>
+                    <div class="dates">2017 - 2018</div>
+                </div>
+                <div class="role-item">
+                    <div class="role">Teaching Assistant</div>
+                    <div class="dates">2015 - 2017</div>
+                </div>
+                <div class="achievements">
+                    <ul>
+                        <li>Managed course staff of 15+ teaching assistants for CS4700 (Artificial Intelligence)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <div class="education-row">
+                    <div>
+                        <div class="company">Cornell University</div>
+                        <div class="degree">Master of Engineering, Computer Science <span class="gpa">GPA: 4.0/4.0</span></div>
+                    </div>
+                    <div>
+                        <div class="location">Ithaca, NY</div>
+                        <div class="dates">2017 - 2018</div>
+                    </div>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-row">
+                    <div>
+                        <div class="company">Cornell University</div>
+                        <div class="degree">Bachelor of Science, Computer Science <span class="gpa">GPA: 4.0/4.0</span></div>
+                    </div>
+                    <div>
+                        <div class="location">Ithaca, NY</div>
+                        <div class="dates">2014 - 2017</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="section-title">Languages and Technologies</div>
+            <div class="skills-grid">
+                <div class="skill-category">Languages:</div>
+                <div class="skill-list">Java, Kotlin, Python, Ruby, SQL, TypeScript</div>
+                <div class="skill-category">Technologies:</div>
+                <div class="skill-list">Git, Apache Thrift, MySQL, Elasticsearch, GraphQL, Rails, Spinnaker, iCalendar</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
